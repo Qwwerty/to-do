@@ -1,0 +1,47 @@
+.count {
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.count section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.count section .created {
+  display: flex;
+  align-items: center;
+
+  gap: 0.5rem;
+}
+
+.count section .created strong {
+  color: var(--blue-200);
+}
+
+.count section span {
+  background: var(--gray-400);
+  border-radius: 999px;
+  padding: 2px 8px;
+}
+
+.count section .done {
+  display: flex;
+  align-items: center;
+
+  gap: 0.5rem;
+}
+
+.count section .done strong {
+  color: var(--purple-300);
+}
+
+@media (max-width: 728px) {
+  .count section .created strong {
+    font-size: 0.9rem;
+  }
+
+  .count section .done strong {
+    font-size: 0.9rem;
+  }
+}

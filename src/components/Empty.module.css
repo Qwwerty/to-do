@@ -1,0 +1,33 @@
+.empty {
+  margin-top: 1.5rem;
+
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+ 
+  padding: 4rem 1.5rem;
+}
+
+.empty div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  text-align: center;
+  line-height: 1.4rem;
+}
+
+.empty div strong {
+  margin-top: 1rem;
+
+  color: var(--gray-300);
+  font-weight: 700;
+}
+
+.empty div span {
+  color: var(--gray-300); 
+}
+
+
+
+

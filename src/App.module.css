@@ -1,0 +1,7 @@
+.wrapper {
+  min-height: calc(152px - 100vh);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
